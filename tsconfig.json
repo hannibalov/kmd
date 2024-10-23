@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "*": ["types/*"]
+    },
+    "target": "ES2017",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "types/**/*.d.ts",
+    "docs/**/*.ts",
+    "src/**/*.ts",
+    "src/**/*.test.ts",
+    "swaggerConfig.ts"
+  ]
+}
