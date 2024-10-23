@@ -32,3 +32,9 @@ yarn start
 
 After this, the project can be tested with postman. The default port is 3001, so use urls with the form:
 http://127.0.0.1:3001/tasks
+
+## Where to see the documentation
+
+Run the backend and open this url in a browser: http://127.0.0.1:3001/docs
+
+This is a documentation generated using swagger. I could not finish adding the body to the 'try it out', but the gets and the remove functions should work as they are
